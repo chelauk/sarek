@@ -180,7 +180,8 @@ include { PAIR_VARIANT_CALLING } from '../subworkflows/local/pair_variant_callin
     manta_options:                   modules['manta_somatic'],
     msisensorpro_msi_options:        modules['msisensorpro_msi'],
     strelka_bp_options:              modules['strelka_somatic_bp'],
-    strelka_options:                 modules['strelka_somatic']
+    strelka_options:                 modules['strelka_somatic'],
+    platypus_options:                modules['platypus_somatic']
 )
 
 ////////////////////////////////////////////////////
